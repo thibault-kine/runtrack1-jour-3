@@ -1,0 +1,66 @@
+body{
+    font-family: "Open Sans";
+    background: linear-gradient(to top, #353C13, #f2f2f2);
+}
+#conteneur
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#conteneur a {
+    display: inline-block;
+    text-decoration: none;
+    color: #242020;
+    font-family: "PT Sans Narrow";
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+
+#conteneur a:hover {
+   background-color: rgb(100, 96, 92);
+   color: silver;
+   border-radius: 10px;
+}
+
+#conteneur1
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    text-align: center;
+  background-color: dimgray;
+}
+#photo{
+    border-radius: 20px;
+    width: 155px;
+    position: relative;
+    margin: 70px;
+}
+p{
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+}
+hr{
+    width: 6px;
+}
+h1{
+    box-shadow: inset 0 0 1em rgb(255, 255, 255), 0 0 2em rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 100px;
+}
+
+#pp {
+    background-image: url("images/pp.jpg");
+    opacity: 0.5;
+}

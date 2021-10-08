@@ -1,0 +1,19 @@
+body{background-color: rgb(9, 74, 134);}
+ul{display: flex; 
+    justify-content: space-around; 
+    text-align: center; 
+    background-color: rgb(70, 1, 1);
+    margin: 15px;
+    list-style-type: none;
+    font-size: 25px;
+    box-shadow: 10px 10px 2px 1px rgba(13, 13, 77, 0.411);}
+h1{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;}
+div{text-align: center;}
+#image{border-style: double;}
+#conteneur{display: flex;
+    justify-content: space-around;}
+p{color: rgb(245, 245, 245);
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}

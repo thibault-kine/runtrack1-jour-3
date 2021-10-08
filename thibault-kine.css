@@ -1,0 +1,99 @@
+h1
+{
+    font-family: "No Surrender";
+    src: url("fonts/No Surrender Italic.ttf");
+    font-style: italic;
+    font-size: 250%;
+    letter-spacing: 3px;
+    margin-left: 5px;
+    margin-right: 50%;
+    padding-left: 15px;
+    color: #24deff;
+    background-image: url("images/bandeau.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+    text-shadow: 0 0 15px purple;
+}
+
+.mainbar
+{
+    /* BACKGROUND AND CONTAINER */
+    background-color: #0b0a0d;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 3%;
+    position: sticky;
+    top: 0;
+    text-align: center;
+
+    /*border: 3px solid yellow;*/
+}
+
+.navbar
+{
+    background-color: #0b0a0d;
+    text-align: center;
+    padding: 10px;
+    margin-top: -45px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: sticky;
+    top: 125px;
+    list-style-type: none;
+
+    /*border: 3px solid red;*/
+
+}
+
+.navbar li
+{
+    display: inline;
+    font-family: Verdana;
+}
+
+.navbar li a
+{
+    text-decoration: none;
+
+    margin-left: -3px;
+    margin-right: -3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    color: #24deff;
+}
+
+.navbar li a:hover
+{
+    background-color: #332f3d;
+}
+
+.selfie
+{
+    float: right;
+    border: 5px solid cyan;
+}
+
+body
+{
+    background-color: #260f3d;
+}
+
+p, ul, blockquote
+{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1%;
+    color: ivory;
+}
+
+blockquote
+{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+}

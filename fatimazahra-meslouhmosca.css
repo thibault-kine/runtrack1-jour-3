@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(112, 107, 189);
+}
+#conteneur
+{
+    display: flex;
+    justify-content: space-around;
+}
+#passion
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h1 {
+    color: rgb(145, 38, 104);
+    margin-left: 20px;
+  }
