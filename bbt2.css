@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+    align-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  p{
+      font-size: larger;
+      color: rgb(43, 19, 1);
+      text-shadow: 5px 5px rgb(233, 250, 0);
+      margin: 100px;
+  }
+
+  h2{
+
+    text-align: center;
+  }
+
+  #aigle {
+    border-radius: 67px;
+  }
+
+#intro{
+  text-align: center;
+  padding-right: -500px;
+  border: 2px solid rgb(89, 0, 255);
+}
+#infophoto{
+  display: flex;
+  
+
+  border: 2px solid red;
+}
+
+#all
+{
+  border: 2px solid green;
+  margin-right: 80px;
+}
+#team ul {
+  list-style-type: none;
+  display :flex;
+  justify-content: space-evenly;
+  border:2px solid gold;
+  border-radius: 45px;
+  background-color: lightcoral;
+}

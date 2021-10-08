@@ -1,0 +1,42 @@
+body{
+    background-color: darkcyan;
+    text-align: center;
+    font-family: "Open Sans";
+
+}
+#conteneur
+{
+    display: flex;
+}
+
+#conteneur a {
+    display: inline-block;
+    text-decoration: none;
+    color: #242020;
+    font-family: "PT Sans Narrow";
+    font-size: 1.7rem;
+    background-color: #85929E;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#conteneur a:hover {
+    background-color: #e5e2e2;
+}
+#conteneur1
+{
+    display: flex;
+  justify-content: space-around;
+}
+#photo{
+    border-radius: 20px;
+    width: 115px;
+
+}
+
+footer{
+    text-align: center;
+  background-color: dimgray;
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Conteneur
+{
+    background-image: url("fleur.jpg");
+    width: 500 px;
+    background-color: lawngreen;
+    
+}
+
+#passion
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-content: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(145, 38, 104);
+    margin-left: 20px;
+  }
+
+  p{
+      font-size: larger;
+      color: blue;
+      text-shadow: 5px 5px rgb(233, 250, 0);
+      margin: 100px;
+  }
+
+  #imagemoi{
+      float: inherit;
+    
+  }
+  #imagemoi img{
+border-radius: 67px;
+  }
